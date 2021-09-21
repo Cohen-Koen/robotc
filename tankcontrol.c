@@ -7,7 +7,7 @@ task main()
 	repeat(forever) {
 		tankControl(Ch3,Ch2,125);
 
-
+}
 		// autonomous
 
 		if (vexRT[Btn8R])
@@ -16,5 +16,5 @@ task main()
 				setMultipleMotors(100,leftMotor,rightMotor);
 
 		}
-}
+
 }
