@@ -4,7 +4,8 @@
 
 task main()
 {
-	tankControl(Ch3,Ch2, 125);
-
+	repeat(forever) {
+		tankControl(Ch3,Ch2,125);
+}
 
 }
