@@ -6,6 +6,16 @@ task main()
 {
 	repeat(forever) {
 		tankControl(Ch3,Ch2,125);
+
+
+		// autonomous
+
+		if (vexRT[Btn8R]){
+			setMultipleMotors(1 rotations, leftMotor,rightMotor);
+		}
+
+		setMultipleMotors(1 rotations, leftMotor,rightMotor);
+
 }
 
 }
