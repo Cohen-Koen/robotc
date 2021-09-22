@@ -5,7 +5,9 @@
 task main()
 {
 	repeat(forever) {
-		tankControl(Ch3,Ch2,125);
+		//tankControl(Ch3,Ch2,125);
+	motor[leftMotor] = vexRT[Ch3];
+	motor[rightMotor] = vexRT[Ch2];
 
 
 		// autonomous
