@@ -14,11 +14,10 @@ task main()
 
 		if (vexRT[Btn8R])
 		{
+
 			forward(1.428, rotations, 125);
 			wait(3);
 			backward(1.428, rotations, 125);
-
-
 		}
 }
 }
