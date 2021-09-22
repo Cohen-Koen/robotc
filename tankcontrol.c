@@ -5,18 +5,19 @@
 task main()
 {
 	repeat(forever) {
-		tankControl(Ch3,Ch2,125);
+		//tankControl(Ch3,Ch2,125);
+	motor[leftMotor] = vexRT[Ch3];
+	motor[rightMotor] = vexRT[Ch2];
 
 
 		// autonomous
 
 		if (vexRT[Btn8R])
 		{
+
 			forward(1.428, rotations, 125);
 			wait(3);
 			backward(1.428, rotations, 125);
-
-
 		}
 }
 }
