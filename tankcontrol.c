@@ -15,13 +15,15 @@ task main()
 
 			// autonomous
 // Idea 2
-
-
-
-
-
-// Idea 1
 /*
+
+
+INSERT IDEA  HERE________________
+
+
+*/
+// Idea 1
+
 			waitUntil (vexRT[Btn6D])
 		{
 
@@ -29,9 +31,9 @@ task main()
 			motor[rightMotor] = 127;
 			stopAllMotors();
 			wait1Msec(1000);
-			backward(1.428, rotations, 127)
+			backward(1, rotations, 127)
 			stopAllMotors(); //test
-		} */
+		}
 }
 
 
