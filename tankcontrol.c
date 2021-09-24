@@ -21,14 +21,15 @@ task main()
 
 
 // Idea 1
-/* 		waitUntil (vexRT[Btn6D])
+/*
+			waitUntil (vexRT[Btn6D])
 		{
 
 			motor[leftMotor] = 127;
 			motor[rightMotor] = 127;
 			stopAllMotors();
 			wait1Msec(1000);
-			backward(1.428, rotations, 127);
+			backward(1.428, rotations, 127)
 			stopAllMotors(); //test
 		} */
 }
