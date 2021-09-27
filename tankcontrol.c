@@ -26,26 +26,26 @@ task main()
 
 
 	//Initializing forwards backwards and the time ---------------------------------------------------FUNCTION
-	int for;
+	int forw;
 	int back;
 	int time;
-	void fowardBackwards(for,back,time,) 
+	void fowardBackwards(forw,back,time,)
 	{
-		set 
+
 	}
 
 // Idea 1
-/*
-			waitUntil (vexRT[Btn6D])
+
+			if (vexRT[Btn6D])
 		{
 
 			motor[leftMotor] = 127;
 			motor[rightMotor] = 127;
 			stopAllMotors();
 			wait1Msec(1000);
-			backward(1, rotations, 127)
+			backward(1, rotations, 127);
 			stopAllMotors();
-		} */
+		}
 }
 
 
