@@ -24,7 +24,7 @@ void fowardBackwards(forw,back,time)
 
 task main()
 {
-	if(vexRT[Ch6D] == true) {
+	if(vexRT[Btn6D] == true) {
 		motor[claw]
 	}
 
