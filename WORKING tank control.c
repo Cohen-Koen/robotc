@@ -37,16 +37,18 @@ task main()
 
 
 	//AUTONOMOUS
-	int rots = 2100;
+	int rots = 1400;
 	if (vexRT(Btn8R) == true)
 	{
-		motor[leftMotor] = 127;
+		motor[leftMotor] = 123;
 		motor[rightMotor] = 127;
-		wait1Msec(rots); // 2.54 rotations
+		wait1Msec(rots); //approximation of how long, slightly over but will ensure we get it lined up.
 		stopAllMotors();
-		motor[leftMotor] = -127;
+		motor[clawMotor] = 127;
+		wait1Msec(500);
+		motor[leftMotor] = -124;
 		motor[rightMotor] = -127;
-		wait1Msec(rots);
+		wait1Msec(1600);
 
 	}
 
